@@ -7,6 +7,7 @@ import {
 import UserAuthentication from "./components/Authentication/UserAuthentication";
 import Dashboard from "./components/Dashboard/Dashboard";
 
+
 const App = () => {
   return (
     <Router>
@@ -19,5 +20,6 @@ const App = () => {
     </Router>
   );
 }
+
 
 export default App; 
